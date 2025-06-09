@@ -41,19 +41,7 @@ Asegúrate de tener las siguientes herramientas instaladas en tu sistema:
 
 ## Estructura del Proyecto
 
-El proyecto está organizado en una carpeta principal `solemneweb5` que contiene el frontend (Angular) y el backend (Node.js) como subcarpetas:
-
-
-solemneweb5/
-├── auth-backend-api/        # Contiene el código de la API REST (Backend Node.js)
-│   └── Dockerfile           # Dockerfile para el backend
-├── freeworks-dashboard/     # Contiene el código de la aplicación Angular (Frontend)
-│   └── Dockerfile           # Dockerfile para el frontend
-├── docker-compose.yml       # Archivo para orquestar los servicios Docker
-├── .gitignore               # Reglas para ignorar archivos en Git
-├── package.json             # Dependencias del proyecto raíz (para npm run dev)
-└── README.md                # Este archivo
-
+El proyecto está organizado en una carpeta principal `solemneweb5` que contiene el frontend (Angular) y el backend (Node.js) 
 
 ## Instrucciones de Ejecución Local
 
@@ -115,7 +103,7 @@ El proyecto utiliza Git para el control de versiones. Sigue estas pautas:
 
     * **Ir a la carpeta del proyecto:** Siempre trabaja desde la raíz del proyecto (`solemneweb5`).
       ```
-      cd C:\Users\lucia\Desktop\solemneweb5
+      cd C:\Users\Desktop\solemneweb5
       ```
 
     * **Sincronizar antes de empezar:** Antes de realizar cambios, siempre actualiza tu rama local con los últimos cambios del repositorio remoto:
@@ -155,7 +143,7 @@ Estas instrucciones te permitirán construir imágenes Docker para tu frontend y
 2.  **Navegar al Directorio Principal del Proyecto:**
     Abre tu terminal (PowerShell) y ve a la carpeta raíz del proyecto donde se encuentra `docker-compose.yml`:
     ```
-    cd C:\Users\lucia\Desktop\solemneweb5
+    cd C:\Users\nombre\Desktop\solemneweb5
     ```
 
 3.  **Construir y Levantar los Servicios Docker:**
@@ -177,7 +165,3 @@ Estas instrucciones te permitirán construir imágenes Docker para tu frontend y
     docker compose down
     ```
 
-## Entregables (Solemne 2)
-
-* **Fecha de Entrega:** 31 de mayo 2025
-* **Entregable:** Frontend en Angular.
