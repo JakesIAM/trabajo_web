@@ -1,4 +1,4 @@
-# FreeWorks - Panel de Control para Freelancers
+# Solemne - FreeWorks - Panel de Control para Freelancers
 
 ## Contexto y Problemática
 
