@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git
 WORKDIR /app
 
 # Clonar el repositorio público
-ARG REPO_URL=https://github.com/rodoac89/resource-manager.git
+ARG REPO_URL=https://github.com/JakesIAM/trabajo_web.git
 RUN git clone ${REPO_URL} .
 
 # Instalar Angular CLI globalmente
